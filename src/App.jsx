@@ -4,9 +4,20 @@ function App() {
 
   return (
    <>
-      <Profile name="Jason" age={23} work="Frontend Developer" />
-      <Profile name="Jhon" age={25} work="Backend Developer" />
-      <Profile name="Adam" age={30} work="FullStack Developer" />
+      <Profile>
+        <p>Name = Jason</p> 
+        <p>Age = 23</p>
+        <p>Work = Frontend Developer</p> 
+      </Profile> 
+      <Profile>
+        <p>Name = John</p> 
+        <p>Age = 25</p>
+        <p>Work = Frontend Developer</p> 
+      </Profile> <Profile>
+        <p>Name = Adam</p> 
+        <p>Age = 30</p>
+        <p>Work = FullStack Developer</p> 
+      </Profile> 
    </>
   );
 }

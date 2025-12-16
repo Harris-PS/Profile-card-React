@@ -3,7 +3,7 @@ import Profile from './Profile.jsx'
 function App() {
 
   return (
-   <>
+   <div className = "container">
       <Profile name = "Jason" age = {23}>
         <p>Role = Frontend Developer</p> 
       </Profile> 
@@ -16,7 +16,7 @@ function App() {
       <Profile>
         <p>Role = FullStack Developer</p> 
       </Profile> 
-   </>
+   </div>
   );
 }
 

@@ -8,4 +8,12 @@
   justify-content: space-around;
   text-align: center;
   border: 1px solid black;
+  border-radius: 20px;
+  background-color: #ffdab9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

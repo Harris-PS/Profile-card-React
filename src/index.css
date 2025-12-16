@@ -3,7 +3,8 @@
   width: 400px;
   margin: 0 auto;
   padding: 20px;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   text-align: center;
   border: 1px solid black;
